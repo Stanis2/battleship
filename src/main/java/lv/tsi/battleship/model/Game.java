@@ -8,6 +8,10 @@ public class Game {
         return player1 != null && player2 != null;
     }
 
+    public boolean isReady() {
+        return player1.isReady() && player2.isReady();
+    }
+
     public User getPlayer1() {
         return player1;
     }

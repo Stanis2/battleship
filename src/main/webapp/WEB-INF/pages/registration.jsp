@@ -8,7 +8,7 @@
 <body>
 
 <div class="w3-container w3-blue">
-    <h2>Join the battle!</h2>
+    <h2 class="w3-animate-left">Join the battle!</h2>
 </div>
 
 <form class="w3-container" method="post" action="/battleship/registration">

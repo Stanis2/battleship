@@ -6,7 +6,7 @@ import javax.enterprise.context.ApplicationScoped;
 public class GameManager {
     private Game incompleteGame;
 
-    public Game setupGame (User user) {
+    public synchronized Game setupGame (User user) {
         if (incompleteGame == null) {
             incompleteGame = new Game();
             incompleteGame.setPlayer1(user);

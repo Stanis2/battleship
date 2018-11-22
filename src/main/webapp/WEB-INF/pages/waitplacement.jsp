@@ -11,7 +11,7 @@
 <body>
 <div class="w3-panel w3-blue">
     <h1 class="w3-opacity">
-        <b class="w3-animate-opacity">${myGame.user.name}, please wait for opponent! </b></h1>
+        <b class="w3-animate-opacity">${myGame.user.name}, please wait for opponent ships! </b></h1>
 </div>
 </body>
 </html>
