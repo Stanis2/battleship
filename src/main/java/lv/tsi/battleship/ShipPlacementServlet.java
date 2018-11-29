@@ -30,7 +30,7 @@ public class ShipPlacementServlet extends HttpServlet {
             }
         }
 
-        if (cells == null || cells.length !=20) {
+        if (cells == null || cells.length !=5) {
             errorHolder.setMessage("You have only 20 ships.");
             request.getRequestDispatcher("WEB-INF/pages/shipplacement.jsp").include(request, response);
             return;

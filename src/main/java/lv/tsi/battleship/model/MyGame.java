@@ -11,6 +11,14 @@ public class MyGame implements Serializable {
     private User user;
     private Game game;
 
+    public boolean isMyTurn () {
+        if (user == game.getPlayer1()) {
+            return game.isPlayer1Turn();
+        } else {
+            return  !game.isPlayer1Turn();
+        }
+    }
+
     public Game getGame() {
         return game;
     }

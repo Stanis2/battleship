@@ -13,7 +13,7 @@
 </div>
 ${errorHolder.message}
 <form method="post" action="shipplacement">
-    <table class="w3-centered w3-margin w3-hoverable">
+    <table class="w3-centered w3-margin w3-hoverable w3-table-all">
         <tr>
             <td>&nbsp</td>
             <c:forEach items="A,B,C,D,E,F,G,H,I,J" var="col">
