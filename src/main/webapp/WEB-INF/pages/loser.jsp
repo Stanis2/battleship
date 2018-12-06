@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="w3-container w3-blue">
-    <h2 class="w3-animate-left">You lose!</h2>
+    <h2 class="w3-animate-left">You lost!</h2>
 </div>
 </body>
 </html>
